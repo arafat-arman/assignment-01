@@ -5,9 +5,10 @@ body {
 /* Header section styles */
 .banner-section {
     text-align: center;
-    background-image: url(../images/Banner\ Image.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.512)), url(../images/Banner\ Image.png);
     background-position: center;
     margin: 50px auto 0;
+    background-size: cover;
     width: 1320px;
     height: 600px;
     border-radius: 16px;
@@ -62,10 +63,11 @@ body {
     margin: 48px auto 0 auto;
     width: 50%;
 }
-
+/* welcome section */
 .welcome-section {
-    background-image: url(../images/Vectorrr.png);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.742), rgba(0, 0, 0, 0.397)), url(../images/Vectorrr.png);
     background-position: center;
+    background-size: cover;
     margin: 50px auto 0;
     width: 1320px;
     height: 600px;
@@ -89,11 +91,13 @@ body {
 }
 
 .welcome-section-button {
-    color: #FFF;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
+    text-decoration: none;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    
+    background-color: transparent;
+    border: 0;
+    color: #FFF;
+    margin-left: 160px;
+    margin-top: 45px;
 }
