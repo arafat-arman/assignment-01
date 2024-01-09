@@ -337,18 +337,11 @@ footer {
     margin: 0;
 }
 
-.footer-section-phone {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    padding-top: 120px;
-    padding-right: 290px;
-    padding-bottom: 0;
-    margin-bottom: 0;
+.footer-section-icons{
+    width: 24px;
+    height: 24px;
 }
-
-.footer-section-website {
+.footer-section-icons-text {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -356,19 +349,10 @@ footer {
     padding-top: 0;
 }
 
-.footer-section-call-icon {
-    width: 24px;
-    height: 24px;
-}
 .footer-section-icon{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.footer-section-website-icon {
-    width: 24px;
-    height: 24px;
 }
 
 hr {
