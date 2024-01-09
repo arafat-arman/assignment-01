@@ -29,7 +29,7 @@ main {
     font-weight: 900;
     padding: 15px 340px 170px;
 }
-
+/* 65% off section */
 .off-section {
     color: #F00;
     text-align: center;
@@ -66,7 +66,7 @@ main {
     width: 50%;
 }
 
-/* welcome section */
+/* welcome to midnight party section */
 .welcome-section {
     display: flex;
     align-items: center;
@@ -119,7 +119,7 @@ main {
     margin-left: 160px;
     margin-top: 45px;
 }
-
+/* Event section  */
 .event-section {
     height: 482px;
     display: flex;
@@ -153,7 +153,7 @@ span {
     background: #F00;
     border: none;
 }
-
+/* New best offer coming soon section */
 .offer-section {
     display: flex;
     margin-top: 120px;
@@ -210,7 +210,74 @@ span {
     width: 140px;
     height: 140px;
 }
+/* Holiday sale section */
+.holiday-section{
+    text-align: center;
+    margin-top: 120px;
+}
+.Holidays-section-title {
+    margin: 0px 0px 64px 0px;
+}
+.Holidays-section-title h6{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
 
+}
+.Holidays-section-title h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding: 0;
+    margin: 16px 0px 28px 0px;
+
+
+}
+.Holidays-section-title p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    padding: 0;
+    width: 1068px;
+    margin: 0 auto;
+}
+
+.holiday-section-banner{
+    position:relative;
+    width: 100%;
+    margin-top: 500px;
+}
+
+.gift-box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.lady-with-badge{
+    position:absolute;
+    bottom: 0;
+    right: -100px;
+}
+.badge-position{
+    position:relative;
+    bottom: 229px;
+    right: 100px;
+}
+.lady {
+    position: absolute;
+    z-index: 0;
+    left: -150px;
+    top: 77px;
+}
+
+.gift-section{
+    margin: 120px 0 0 0;
+}
+/* Our Awesome Portfolio */
 .gift-section-h5 {
     color: #F00;
     font-family: Inter;
@@ -236,7 +303,7 @@ span {
     width: 896px;
     margin-bottom: 48px;
 }
-
+/* Gallary section */
 .gallery-image {
     width: 424px;
 }
@@ -279,14 +346,17 @@ span {
     padding-left: 210px;
     padding-right: 210px;
 }
-
+.subscribe-section-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
 .subscribe-section-mail {
     width: 658px;
     height: 72px;
     border: 0;
     border-radius: 50px 0px 0px 50px;
-    margin-top: 40px;
-    margin-bottom: 80px;
 }
 
 .subscribe-section-submit {
@@ -315,22 +385,24 @@ placeholder {
 /* footer section */
 footer {
     background: #070211;
-    margin: 0;
+    margin: 120px 0 0 0;
+    padding-top: 120px;
 }
 
 .footer-section-contact {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
 .footer-section-address {
+    width: 50%;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    padding-top: 120px;
-    padding-left: 140px;
-    padding-bottom: 0px;
+   
 }
 .address-section{
     padding-bottom: 0;
@@ -346,30 +418,30 @@ footer {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    padding-top: 0;
+    padding: 0;
 }
 
 .footer-section-icon{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    gap: 10px;
+    margin: 0;
+    height: 40px;
 }
 
-hr {
-
+footer hr {
     background: rgba(255, 255, 255, 0.15);
     width: 1320px;
-    height: 1px;
 }
 
 .social-link {
     text-align: center;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
-}
-
-hr {
-    background: rgba(255, 255, 255, 0.15);
 }
 
 .copyright-section {
