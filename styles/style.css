@@ -1,4 +1,4 @@
-body {
+main {
     font-family: 'Merriweather', serif;
     max-width: 1320px;
     margin: 0 auto 0;
@@ -237,11 +237,167 @@ span {
     margin-bottom: 48px;
 }
 
-.gallery-image{
+.gallery-image {
     width: 424px;
 }
-.gallery-section{
+
+.gallery-section {
     display: flex;
     justify-content: space-between;
     margin-top: 24px;
+}
+
+/* subscribe section */
+.subscribe-section {
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+    margin-top: 120px;
+    gap: 0;
+}
+
+.subscribe-section-image {
+    width: 150px;
+    height: 150px;
+    padding-top: 80px;
+}
+
+.subscribe-section-title {
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.subscribe-section-greeting {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
+    padding-left: 210px;
+    padding-right: 210px;
+}
+
+.subscribe-section-mail {
+    width: 658px;
+    height: 72px;
+    border: 0;
+    border-radius: 50px 0px 0px 50px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.subscribe-section-submit {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.subscribe-section-mail,
+placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    margin-left: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* footer section */
+footer {
+    background: #070211;
+    margin: 0;
+}
+
+.footer-section-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section-address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 120px;
+    padding-left: 140px;
+    padding-bottom: 0px;
+}
+.address-section{
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.footer-section-phone {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 120px;
+    padding-right: 290px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer-section-website {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 0;
+}
+
+.footer-section-call-icon {
+    width: 24px;
+    height: 24px;
+}
+.footer-section-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-section-website-icon {
+    width: 24px;
+    height: 24px;
+}
+
+hr {
+
+    background: rgba(255, 255, 255, 0.15);
+    width: 1320px;
+    height: 1px;
+}
+
+.social-link {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.copyright-section {
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 50px 0 120px 140px;
+}
+.unsubscribe-section{
+    padding-right: 140px;
 }
